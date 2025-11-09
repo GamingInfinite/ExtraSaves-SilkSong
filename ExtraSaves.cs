@@ -1,6 +1,5 @@
 using BepInEx;
 using BepInEx.Logging;
-using ExtraSaves.Extensions;
 using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
@@ -89,7 +88,7 @@ namespace ExtraSaves
                 saveButton.ResetButton(GameManager.instance);
             }
         }
-
+        
         public static void Log(string msg)
         {
             logSource.LogInfo(msg);
